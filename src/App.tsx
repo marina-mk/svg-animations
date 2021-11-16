@@ -1,10 +1,15 @@
 import './App.css';
-import Shapes from './components/Shapes';
+import { Groups } from './components/Groups';
+import { PathShapes } from './components/PathShapes';
+import { PlatonicShapes } from './components/PlatonicShapes';
+
 
 function App() {
   return (
     <div className="App">
-        <Shapes />
+        <PlatonicShapes />
+        <PathShapes />
+        <Groups />
     </div>
   );
 }
