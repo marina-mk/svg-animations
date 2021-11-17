@@ -1,0 +1,17 @@
+.staticBox {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    border: 1px solid darkblue;
+    background: lightblue;
+    margin: 50px;
+    transition: transform 0.3s ease;
+}
+
+.staticBox:hover {
+    transform: scale(1.5);
+}
+
+.staticBox:focus {
+    transform: scale(2);
+}
